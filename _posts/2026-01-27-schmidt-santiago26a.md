@@ -13,7 +13,7 @@ abstract: "Breast cancer Tissue Microarrays (TMAs) offer a high-throughput platf
   and Monte Carlo Dropout (MCDO) for uncertainty estimation. A robust pre-processing
   workflow addresses illumination artifacts, staining variability, and tissue detection.
   Multiple U-Net models were trained using distinct loss functions to address class
-  imbal\x02ance and feature  iversity. Predictions were combined via soft voting,
+  imbalance and feature  iversity. Predictions were combined via soft voting,
   emulating consensus among pathologists. Uncertainty was quantified using MCDO across
   ensemble outputs, enhancing reliability and interpretability. Our pipeline outperforms
   similar methods such as WeGleNet (mIoU = 0.4368) and HistoSegNet (mIoU = 0.5505),

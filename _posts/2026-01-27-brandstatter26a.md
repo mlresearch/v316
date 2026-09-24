@@ -8,17 +8,17 @@ volume: '316'
 series: Proceedings of Machine Learning Research
 publisher: PMLR
 abstract: "In histopathology, tissue samples are often larger than a standard microscope
-  slide, mak\x02ing stitching of multiple fragments necessary to process entire structures
+  slide, making stitching of multiple fragments necessary to process entire structures
   such as tumors.Automated stitching is a prerequisite for scaling analysis, but is
   challenging due to possible tissue loss during preparation, inhomogeneous morphological
-  distortion, staining inconsis\x02tencies, missing regions due to misalignment on
+  distortion, staining inconsistencies, missing regions due to misalignment on
   the slide, or frayed tissue edges. This limits state-of-the-art stitching methods
-  using boundary shape matching algorithms to re\x02construct artificial whole mount
+  using boundary shape matching algorithms to reconstruct artificial whole mount
   slides (WMS). Here, we introduce SemanticStitcher using latent feature representations
   derived from a visual histopathology foundation model to identify neighboring areas
   in different fragments. Robust pose estimation based on a large number of semantic
   matching candidates derives a mosaic of multiple fragments to form the WMS. Experiments
-  on three different histopathology datasets demonstrate that Se\x02manticStitcher
+  on three different histopathology datasets demonstrate that SemanticStitcher
   yields robust WMS mosaicing and consistently outperforms the state of the art in
   correct boundary matches."
 layout: inproceedings

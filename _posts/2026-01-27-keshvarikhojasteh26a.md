@@ -7,21 +7,21 @@ volume: '316'
 series: Proceedings of Machine Learning Research
 publisher: PMLR
 abstract: "Multiple instance learning (MIL) is a promising approach for weakly supervised
-  classifica\x02tion in pathology using whole slide images (WSIs). However, conventional
+  classification in pathology using whole slide images (WSIs). However, conventional
   MIL methods such as Attention-Based Deep Multiple Instance Learning (ABMIL) typically
-  disregard spa\x02tial interactions among patches that are crucial to pathological
-  diagnosis. Recent advance\x02ments, such as Transformer based MIL (TransMIL), have
+  disregard spatial interactions among patches that are crucial to pathological
+  diagnosis. Recent advancements, such as Transformer based MIL (TransMIL), have
   incorporated spatial context and inter-patch relationships. However, it remains
   unclear whether explicitly modeling patch relationships yields similar performance
   gains in ABMIL, which relies solely on Multi-Layer Perceptrons (MLPs). In contrast,
   TransMIL employs Transformer-based layers, introducing a fundamental architectural
-  shift at the cost of substantially increased computational com\x02plexity. In this
+  shift at the cost of substantially increased computational complexity. In this
   work, we enhance the ABMIL framework by integrating interaction-aware representations
   to address this question. Our proposed model, Global ABMIL (GABMIL), explicitly
   captures inter-instance dependencies while preserving computational efficiency.
   Experimental results on two publicly available datasets for tumor subtyping in breast
   and lung cancers demonstrate that GABMIL achieves up to a 7 percentage point improvement
-  in AUPRC and a 5 percentage point increase in the Kappa score over ABMIL, with mini\x02mal
+  in AUPRC and a 5 percentage point increase in the Kappa score over ABMIL, with minimal
   or no additional computational overhead. These findings underscore the importance
   of incorporating patch interactions within MIL frameworks. Our code is available
   at GABMIL."
